@@ -1,93 +1,15 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vin Sri | Personal Website</title>
-    <meta
-      name="description"
-      content="Personal website for Vin Sri: projects, writing, and ways to connect."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="bg-orb orb-a" aria-hidden="true"></div>
-    <div class="bg-orb orb-b" aria-hidden="true"></div>
 
-    <header class="site-header">
-      <a class="brand" href="#top">vinsri.co</a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Personal website design</title>
+    </head>
 
-    <main id="top">
-      <section class="hero reveal">
-        <p class="kicker">Hi, I'm Vin.</p>
-        <h1>Building useful things with code, design, and curiosity.</h1>
-        <p class="hero-copy">
-          This is my corner of the internet where I share what I am working on,
-          what I am learning, and what I am building next.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">View projects</a>
-          <a class="btn ghost" href="#contact">Get in touch</a>
-        </div>
-      </section>
-
-      <section id="about" class="card reveal">
-        <h2>About</h2>
-        <p>
-          I enjoy turning ambiguous ideas into practical products. My focus is on
-          clean implementation, thoughtful UX, and systems that are easy to
-          maintain.
-        </p>
-      </section>
-
-      <section id="projects" class="card reveal">
-        <h2>Projects</h2>
-        <div class="project-grid">
-          <article class="project">
-            <h3>Project One</h3>
-            <p>Short description of a project and the value it created.</p>
-            <a href="#" aria-label="Project One link">View details</a>
-          </article>
-          <article class="project">
-            <h3>Project Two</h3>
-            <p>Another project with a concrete outcome and key takeaway.</p>
-            <a href="#" aria-label="Project Two link">View details</a>
-          </article>
-          <article class="project">
-            <h3>Project Three</h3>
-            <p>Something experimental you explored and what you learned.</p>
-            <a href="#" aria-label="Project Three link">View details</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="card reveal">
-        <h2>Contact</h2>
-        <p>
-          Reach out at
-          <a href="mailto:hello@vinsri.co">hello@vinsri.co</a>
-          or connect on
-          <a href="https://github.com/vin-sri" target="_blank" rel="noreferrer">GitHub</a>.
-        </p>
-      </section>
-    </main>
-
-    <footer>
-      <p><span id="year"></span> Vin Sri. Built with intent.</p>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  
